@@ -1,0 +1,33 @@
+# System
+venv
+*.pyc
+*.zip
+.DS_Store
+*.sqlite3
+*.rdb
+.coverage
+.cache
+coverage
+htmlcov
+.vscode
+
+# Settings
+local_settings.py
+deploy_settings.py
+deploy_settings.sh
+
+# Static, media and libs
+static/
+libs/
+node_modules
+media/
+
+# Logs
+error_logs.log
+
+# Sockets
+*.socket
+
+#Build
+dist/
+djlotrek.egg-info/
