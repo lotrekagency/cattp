@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     url='https://github.com/lotrekagency/cattp',
     install_requires=[],
-    description="Cattp",
+    description="Django responses with cats from https://http.cat",
     long_description=open('README.rst', 'r').read(),
     license="MIT",
     author="Lotrek",
