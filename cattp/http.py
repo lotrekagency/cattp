@@ -15,7 +15,7 @@ CATTP_RESPONSE = """
 
 
 class HttpCatResponse(HttpResponse):
-    
+
     def __init__(self, status_code=200):
         super().__init__(
             content=CATTP_RESPONSE.format(status_code),
