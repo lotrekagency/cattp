@@ -30,4 +30,5 @@ error_logs.log
 
 #Build
 dist/
+build/
 cattp.egg-info/

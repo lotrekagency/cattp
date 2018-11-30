@@ -1,14 +1,13 @@
 from setuptools import setup, find_packages
-from m2r import parse_from_file
 
 
 setup(
     name='cattp',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/lotrekagency/cattp',
     install_requires=[],
     description="Django responses with cats from https://http.cat",
-    long_description=parse_from_file('README.md'),
+    long_description=open('README.rst').read(),
     license="MIT",
     author="Lotrek",
     author_email="dimmitutto@lotrek.it",
