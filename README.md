@@ -13,8 +13,18 @@
 pip install cattp
 ```
 
+## Usage
+```python
+from cattp.http import HttpCatResponse
+
+def my_view():
+    return HttpCatResponse(status_code=200)
+```
+
+
 
 ## Run tests
-
-    $ pip install -r requirements-dev.txt
-    $ make test
+```sh
+$ pip install -r requirements-dev.txt
+$ make test
+```
