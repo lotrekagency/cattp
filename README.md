@@ -18,7 +18,7 @@ pip install cattp
 ```python
 from cattp.http import HttpCatResponse
 
-def my_view():
+def my_view(request):
     return HttpCatResponse(status_code=200)
 ```
 
